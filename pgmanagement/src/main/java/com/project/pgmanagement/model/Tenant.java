@@ -13,7 +13,6 @@ import org.hibernate.annotations.CreationTimestamp;
 import java.time.LocalTime;
 
 @Data
-//@NoArgsConstructor
 @RequiredArgsConstructor
 @Entity
 @Table(name = "tenant" , uniqueConstraints =
@@ -40,23 +39,6 @@ public class Tenant {
         account.setAuthority(Authority.USER.name());
         this.account = account;
     }
-   /* public void setAuthority(String authority) {
-        this.authority = Authority.USER.name();
-    }*/
-
-   /* @PrePersist
-    public void accountCreation()
-    {
-        Account account = new Account();
-        account.setAuthority(this.authority);
-        account.setPassword(this.password);
-        account.setUsername(this.username);
-    }*/
+  
 
 }
-/*@Column(length = 20, nullable = false)
-    private String username;
-    @Column(length = 50, nullable = false)
-    private String password;
-    @Column(length = 10, nullable = false)
-    private String authority;*/
