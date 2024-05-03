@@ -1,5 +1,5 @@
 <h1 align="center">Project PG MANAGEMENT SYSTEM</h1>
-<h3 align="center">The PG Management System API is a robust Java-based web service designed to streamline inventory management for businesses. It provides a comprehensive set of endpoints for managing products and departments, ensuring efficient organization and tracking of stock items.</h3>
+<h3 align="center">The PG Management System API is a robust Java-based web service designed to manage Hostellers and their facilities etc. It provides a comprehensive set of endpoints for managing Hostellers Registration ,Room allocations , user ID ,Password ,managing hostellers and user interface, ensuring efficient organization and handling the hostellers.</h3>
 
 - ABOUT ME **Java Developer with a keen interest in building scalable and efficient applications.**
 
